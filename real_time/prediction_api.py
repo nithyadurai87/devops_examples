@@ -8,7 +8,7 @@ from pandas.io.json import json_normalize
 import joblib
 
 app = Flask(__name__)
-port = int(os.getenv('PORT', 5500))
+port = int(os.getenv('PORT', 5600))
 
 @app.route('/')
 def home():
